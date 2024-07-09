@@ -2,21 +2,23 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #e2e2c1;
+    background-color: #f4f4f9;
 }
 
 body {
     font-family: Arial, sans-serif;
+    color: #333;
 }
 
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #8f1818;
-    padding: 20px 0;
+    background-color: #08549f;
+    padding: 15px 0;
     z-index: 1000;
     transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -39,19 +41,34 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6347;
+    color: #f01e3e;
 }
 
 .content {
-    margin-top: 70px;
+    margin-top: 60px;
     padding: 20px;
 }
 
 section {
     margin: 50px 0;
     height: 50vh; /* Ensure there is enough content to scroll */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 #navbar.scrolled {
-    background-color: #1d0ef0;
+    background-color: #043669;
+}
+
+footer {
+    background-color: #03478b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
